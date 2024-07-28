@@ -1,0 +1,55 @@
+.claculator {
+  width: 300px;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+.display {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.display input {
+  width: 100%;
+  height: 40px;
+  text-align: right;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  color: #000;
+}
+
+.display .result {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: right;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.buttons button {
+  border: none;
+  font-size: 18px;
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #777;
+}
